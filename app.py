@@ -8,7 +8,7 @@ programs = []
 program = []
 
 #programs作成
-f = open('/home/ec2-user/environment/data.json','r')
+f = open('data.json','r')
 dict_data = json.load(f)
 
 for i in dict_data['results']:
